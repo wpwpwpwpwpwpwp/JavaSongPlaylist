@@ -3,7 +3,7 @@ public class JavaSong {
     private String author;
     private boolean platinum;
 
-    public JavaSong(String title, String author, boolean platinum){
+    public JavaSong(String title, String author, boolean platinum){//adding comments to practice git
         this.title = title;
         this.author = author;
         this.platinum = platinum;
