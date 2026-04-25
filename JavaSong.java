@@ -13,6 +13,10 @@ public class JavaSong {
         this.platinum = platinum;
     }
 
+    public boolean isPlatinum(){
+        return platinum;
+    }
+
     @Override
     public String toString(){
         return title + " by " + author + " | Platinum: " + platinum;
